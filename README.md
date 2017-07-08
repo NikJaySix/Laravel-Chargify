@@ -1,4 +1,4 @@
-Chargify Wrapper for Laravel 5.4
+Chargify Wrapper for Laravel 5.+
 =====================================
 
 This is a wrapper using the chargley chargify SDK v0.1.3. It creates a service provider and facade for autoloading into laravel.
