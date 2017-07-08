@@ -1,10 +1,11 @@
 <?php
-namespace NikJaySix\ChargifyLaravel;
+namespace NikJaySix\LaravelChargify;
+
 use Illuminate\Support\ServiceProvider;
 use Crucial\Service\Chargify;
 use Config;
 
-class ChargifyLaravelServiceProvider extends ServiceProvider {
+class LaravelChargifyServiceProvider extends ServiceProvider {
 
     /**
      * Indicates if loading of the provider is deferred.
