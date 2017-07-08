@@ -11,22 +11,22 @@ How to Install
 1.  Install the `nikjaysix/chargify-laravel` package
 
     ```shell
-    $ composer require nikjaysix/chargify-laravel
+    $ composer require nikjaysix/laravel-chargify
     ```
 
-2. Update `config/app.php` to activate the ChargifyLaravel package
+2. Update `config/app.php` to activate the LaravelChargify package
 
     ```php
-    # Add `ChargifyLaravelServiceProvider` to the `providers` array
+    # Add `LaravelChargifyServiceProvider` to the `providers` array
     'providers' => array(
         ...
-        NikJaySix\ChargifyLaravel\ChargifyLaravelServiceProvider::class,
+        NikJaySix\LaravelChargify\LaravelChargifyServiceProvider::class,
     )
 
-    # Add the `ChargifyLaravelFacade` to the `aliases` array
+    # Add the `LaravelChargifyFacade` to the `aliases` array
     'aliases' => array(
         ...
-        'Chargify' => NikJaySix\ChargifyLaravel\ChargifyLaravelFacade::class
+        'Chargify' => NikJaySix\LaravelChargify\LaravelChargifyFacade::class
     )
     ```
 
