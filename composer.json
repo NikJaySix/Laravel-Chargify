@@ -1,20 +1,19 @@
 {
     "name": "nikjaysix/laravel-chargify",
     "description": "Laravel service provider for the chargify API using the chargley chargify SDK v0.1.3.",
-    "keywords": ["laravel", "chargify", "chargley"],
-    "license": "Apache 2.0",
-    "homepage": "https://github.com/nikjaysix/laravel-chargify",
-    "authors": [
-        {
-            "name": "Nik Jay",
-            "email": "hello@nikjaysix.com"
-        }
-    ],
+    "type": "Api Wrapper",
     "require": {
         "php": ">=5.4.0",
         "illuminate/support": "4.*|5.*",
         "chargely/chargify-sdk-php": "0.1.3"
     },
+    "license": "Apache 2.0",
+    "authors": [
+        {
+            "name": "Nicole Jay",
+            "email": "hello@nikjaysix.com.au"
+        }
+    ],
     "autoload": {
         "psr-0": {
             "NikJaySix\\LaravelChargify\\": "src/"
