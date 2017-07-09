@@ -8,7 +8,7 @@ How to Install
 
 ### Laravel 5.+
 
-1.  Install the `nikjaysix/chargify-laravel` package
+1.  Install the `nikjaysix/laravel-chargify` package
 
     ```shell
     $ composer require nikjaysix/laravel-chargify
