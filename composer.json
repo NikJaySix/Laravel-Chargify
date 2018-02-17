@@ -7,7 +7,7 @@
         "illuminate/support": "4.*|5.*",
         "chargely/chargify-sdk-php": "0.1.3"
     },
-    "license": "Apache 2.0",
+    "license": "MIT",
     "authors": [
         {
             "name": "Nicole Jay",
